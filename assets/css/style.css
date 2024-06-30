@@ -1,0 +1,22 @@
+.bg-nav {
+    background-color:#2b99a6;
+}
+/* inicio letra cabin */
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.cabin-<uniquifier> {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+/* fin letra cabin */
+body{
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    color: #ffffff;
+    background-color: #000000;
+}
