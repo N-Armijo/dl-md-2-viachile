@@ -1,38 +1,16 @@
-.bg-nav{
-    background-color:#2b99a6;
-}
-/* inicio letra cabin */
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 400 to 700
-
-.cabin-<uniquifier> {
-  font-family: "Cabin", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-} */
-/* fin letra cabin */
 body{
     font-family: "Cabin", sans-serif;
     font-optical-sizing: auto;
     color: #ffffff !important;
     background-color: #000000;
 }
+.bg-nav{
+    background-color:#2b99a6;
+}
 .icon{
     font-size: 35px;
     font-weight: 100;
     color: #ffffff;
-}
-#quienes-somos {
-    margin: 0px;
-    padding: 0px;
-}
-#quienes-somos p{
-    background-color: #000000;
-    margin: 0px;
-    padding: 0px;
 }
 .card-body{
     background-color: #0dcaf0;
@@ -42,3 +20,6 @@ body{
     width: 32px;
     height: 32px;
 }
+.card-img-top {
+    height: 12rem;
+} 
