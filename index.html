@@ -160,7 +160,7 @@
                 <div class="row">
                     <h2 class="text-center">CONTACTO</h2>
                     <!-- form -->
-                    <form>
+                    <form id="form-contacto">
                         <div class="mb-3">
                             <label for="nombre" class="form-label">Nombre</label>
                             <input type="text" class="form-control" id="nombre" aria-describedby="nombre"/>
@@ -173,7 +173,9 @@
                             <label for="mensaje" class="form-label">Mensaje</label>
                             <textarea class="form-control" id="mensaje" rows="3"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-info text-light">Enviar</button>
+                        <button type="submit" class="btn btn-info text-light"data-bs-toggle="tooltip" data-bs-placement="top"
+                        data-bs-custom-class="custom-tooltip"
+                        data-bs-title="Estemos en contacto." id="btn-contacto">Enviar</button>
                     </form>
                 </div>
             </div>
