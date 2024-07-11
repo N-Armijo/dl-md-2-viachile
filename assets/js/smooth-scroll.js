@@ -6,9 +6,10 @@ $(() =>{
             let hash = event.currentTarget.hash;
             $('html,body').animate({
                 scrollTop: $(hash).offset().top
-            }, 800, () => {
+                }, 800, () => {
                 window.location.hash = hash;
-                });
-            }
-        });
+                }
+            );
+        }
+    });
 })
